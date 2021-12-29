@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-                if(email.getText().toString().equals("admin") && pass.getText().toString().equals("admin")){
+                if(email.getText().toString().equals("admin11") && pass.getText().toString().equals("admin")){
                     Intent i;
                     i = new Intent(LoginActivity.this, Dashboard.class);
                     startActivity(i);
